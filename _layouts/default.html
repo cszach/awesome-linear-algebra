@@ -1,0 +1,38 @@
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% seo %}
+		<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+		<link rel="stylesheet" href="/assets/css/gh-fork-ribbon.min.css" />
+		<style>
+			.github-fork-ribbon:before { background-color: #24292e; }
+			.github-fork-ribbon:after { color: #fff; }
+		</style>
+	</style>
+	</head>
+	<body>
+		<div class="container-lg px-3 my-5 markdown-body">
+
+			{{ content }}
+
+			<a href="{{ site.github.repository_url }}"
+			   class="github-fork-ribbon right-top fixed"
+			   data-ribbon="Fork me on GitHub" title="Fork me on GitHub">
+			   Fork me on GitHub
+		   	</a>
+
+			<div class="footer border-top border-gray-light mt-5 pt-3 text-center text-gray">
+				Created with :heart: by <a href="https://github.com/you-create">Duong</a>.
+				Owned by <a href="https://vecma-org.github.io">Vecma</a>. <br>
+				Vecma is a linear algebra and computer graphics study & research
+				group.
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+				integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
+				crossorigin="anonymous"></script>
+		<script>anchors.add();</script>
+	</body>
+</html>
