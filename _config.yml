@@ -1,2 +1,7 @@
+title: Awesome Linear Algebra
+description: Helpful resources for students and learners of Linear Algebra 
+
 plugins:
   - jemoji
+
+exclude: [bundle]
