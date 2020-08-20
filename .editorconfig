@@ -7,6 +7,11 @@ insert_final_newline = true
 [*.{md}]
 charset = utf-8
 
+[*.{html,css,js}]
+charset = utf-8
+indent_style = tab
+tab_width = 4
+
 [{Gemfile,_config.yml}]
 indent_style = tab
 tab_width = 2
